@@ -14,7 +14,7 @@ namespace FileExplorer.SQL
         private static string User = "postgres";
         private static string DBname = "Explorer";
         private static string Password = "root";
-        private static string Port = "5432";
+        private static string Port = "5433";
         List<EFile> ScanFiles = new List<EFile>();
         List<EFile> SearchFiles = new List<EFile>();
 

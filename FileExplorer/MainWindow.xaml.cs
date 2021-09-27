@@ -92,8 +92,19 @@ namespace FileExplorer
          */
         public void addSearchedItems(List<EFile> Files)
         {
-            SearchList.Items.Clear();
+            
             Console.WriteLine(SearchList);
+ //         SearchList.Items.Clear();
+
+            if (SearchList.Items.Count > 0)
+            {
+                for (int a = SearchList.Items.Count - 1; a > 0; a--)
+                {
+                    SearchList.Items.RemoveAt(a);
+                }
+                SearchList.Items.Refresh();
+
+            }
 
             foreach (var element in Files)
             {

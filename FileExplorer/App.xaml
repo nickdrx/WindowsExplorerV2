@@ -4,6 +4,25 @@
              xmlns:local="clr-namespace:FileExplorer"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <Style TargetType="Button">
+            <Setter Property="FontFamily" Value="Arial"/>
+            <Setter Property="FontSize" Value="40"/>
+            <Setter Property="Background" Value="Gray"/>
+        </Style>
+        <Style TargetType="Grid">
+            <Setter Property="Background" Value="White"/>
+        </Style>
+
+        <Style TargetType="TreeView">
+            <Setter Property="Background" Value="Gray"/>
+        </Style>
+
+        <Style TargetType="TextBox">
+            <Setter Property="Background" Value="LightGray"/>
+        </Style>
+
+        <Style TargetType="ListBox">
+            <Setter Property="Background" Value="Gray"/>
+        </Style>
     </Application.Resources>
 </Application>
