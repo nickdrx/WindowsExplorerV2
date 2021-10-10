@@ -1,8 +1,8 @@
 # WindowsExplorerV2
 Its the same as Windows Explorer, but only better
 
-Open the "FileExplorer.sln"
-Open "pgadmin4"
-Create the Database "Explorer"
-Add Table "files"
-Start the Project
+1. Open the "FileExplorer.sln"
+2. Open "pgadmin4"
+3. Create the Database "Explorer"
+4. Add Table "files"
+5. Start the Project
